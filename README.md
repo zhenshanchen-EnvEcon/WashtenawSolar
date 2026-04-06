@@ -5,7 +5,7 @@ This is the replication package for report submitted to Saline Township: "Proper
 3. Analysis_AverageEffect.do explores average property value impact.
 4. GettingMIdata_trans&Prop.do acquires data to run the analyses and the total impact estimate for properties around the proposed site.
 5. Total_Impact_Estimate.do conducts the total impact estimate for properties around the proposed site.
-6. Agri_Impact.do analyzes CDL data and estimates the proposed site's impact on land acreage in farms and total market value of farm products.
+6. Agri_Impact.do analyzes Cropland Data Layer (CDL) data and estimates the proposed site's impact on land acreage in farms and total market value of farm products.
 7. Merge_tract.py merges solar sites with census tracts to get the census tract statistics (i.e., median income in this case) for all solar sites involved.  
 8. MeasuringDistance_Properties.py measures the distance from properties to the proposed solar site.
 9. Measure_Distance_from_Metro_Areas.py measures the distance from solar sites to certain geographic features (i.e., nearest distance to major metro areas as an example)
