@@ -95,7 +95,7 @@ foreach d of numlist 1(.5)6 {
 *Distance Decay
 est clear
 *
-reghdfe logSalesPrice 1.post ib60.ring ib60.ring#1.post logDistLine post_logDistLine $House_X if near_dist_solar1<=6,  a(i.cty#i.e_Year i.locale) cluster(locale e_Year)
+reghdfe logSalesPrice 1.post ib60.ring ib60.ring#1.post logDistLine post_logDistLine $House_X if near_dist_solar1<=6,  a(i.cty#i.e_Year i.locale) cluster(cty e_Year)
 est sto distdecay_study
 esttab using "$results\distdecay_study_ResiHome_b5_3.5mi.csv", replace 
 
